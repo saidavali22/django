@@ -25,7 +25,7 @@ SECRET_KEY = 'v=o#va%3jb#+oewb=xu7&%cn0jv#+d@nlu&bisb^7%744=g@+j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1' , 'https://saidavali.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1' , 'https://saidavali.herokuapp.com/' , 'saidavali.herokuapp.com']
 
 
 # Application definition
