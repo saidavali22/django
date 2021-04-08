@@ -25,7 +25,7 @@ SECRET_KEY = 'v=o#va%3jb#+oewb=xu7&%cn0jv#+d@nlu&bisb^7%744=g@+j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1' , 'https://saidavali.herokuapp.com/']
 
 
 # Application definition
@@ -128,10 +128,7 @@ STATIC_ROOT= os.path.join(BASE_DIR,'./static')
 STATIC_URL = '/static/'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
     "http://localhost:8080",
-    "http://127.0.0.1:9000"
-    "*",
-    "https://saidavali.herokuapp.com/"
+    'saidavali.herokuapp.com'
+    'https://saidavali.herokuapp.com'
 ]
